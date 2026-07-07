@@ -1,0 +1,315 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						6
+					],
+					"jsonFile" : "directory-.-Debug-f6f22219c74102c3da70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-src-Debug-1722085f943e0250936a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						7,
+						8
+					]
+				},
+				{
+					"build" : "src/IMU",
+					"jsonFile" : "directory-src.IMU-Debug-1b15862fd8198fd754a2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "src/IMU",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "src/COMMON",
+					"jsonFile" : "directory-src.COMMON-Debug-48cb5a72bc066e9cb162.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "src/COMMON",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/GNSS",
+					"jsonFile" : "directory-src.GNSS-Debug-ccb3635d974b96e4ef5d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "src/GNSS",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "src/COMBINED",
+					"jsonFile" : "directory-src.COMBINED-Debug-540af945cc178694ee07.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "src/COMBINED",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "external",
+					"childIndexes" : 
+					[
+						7
+					],
+					"jsonFile" : "directory-external-Debug-44a979e41106a9f1ca3a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "external"
+				},
+				{
+					"build" : "external/simpleini",
+					"jsonFile" : "directory-external.simpleini-Debug-09df75f4ecd94b637ef7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 5,
+					"source" : "external/simpleini",
+					"targetIndexes" : 
+					[
+						9
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						6
+					],
+					"name" : "combined_nav",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						7,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "imu",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "common",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "gnss",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "combined_module",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "simpleini",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "backward_LCI::@145eef247bfb46b6828c",
+					"jsonFile" : "target-backward_LCI-Debug-6723736c77395a8470dd.json",
+					"name" : "backward_LCI",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "combined_module::@c869904cc9358e992d5a",
+					"jsonFile" : "target-combined_module-Debug-cfd184738b95efcea9b0.json",
+					"name" : "combined_module",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "common::@453c19694aa45da5928e",
+					"jsonFile" : "target-common-Debug-0a9365ddb8d164b72945.json",
+					"name" : "common",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "forward_LCI::@145eef247bfb46b6828c",
+					"jsonFile" : "target-forward_LCI-Debug-caeecc9e4d9fa8386f2e.json",
+					"name" : "forward_LCI",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "fused_LCI::@145eef247bfb46b6828c",
+					"jsonFile" : "target-fused_LCI-Debug-704db933d1001921dbfa.json",
+					"name" : "fused_LCI",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gnss::@215cc37a38092868c83f",
+					"jsonFile" : "target-gnss-Debug-b00d8fdc78e50d8baa6e.json",
+					"name" : "gnss",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "imu::@9b4170d1c880e31e1775",
+					"jsonFile" : "target-imu-Debug-d82fc222af33d37b989c.json",
+					"name" : "imu",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "realtime_file_sender::@145eef247bfb46b6828c",
+					"jsonFile" : "target-realtime_file_sender-Debug-80443d767a096d7dbe6c.json",
+					"name" : "realtime_file_sender",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "realtime_forward_LCI::@145eef247bfb46b6828c",
+					"jsonFile" : "target-realtime_forward_LCI-Debug-db4eb67d03b53945895e.json",
+					"name" : "realtime_forward_LCI",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "simpleini::@99b27c1ad0b08a9b31f3",
+					"jsonFile" : "target-simpleini-Debug-11007f20babc534efdd0.json",
+					"name" : "simpleini",
+					"projectIndex" : 5
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/my_project/combined_nav/build",
+		"source" : "D:/my_project/combined_nav"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	}
+}

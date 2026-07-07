@@ -1,0 +1,2 @@
+D:\my_it\vscode\mingw64\bin\ar.exe qc D:\my_project\combined_nav\lib\libcombined_module.a CMakeFiles/combined_module.dir/alignment.cpp.obj CMakeFiles/combined_module.dir/lci_filter.cpp.obj CMakeFiles/combined_module.dir/lci_runner.cpp.obj
+D:\my_it\vscode\mingw64\bin\ranlib.exe D:\my_project\combined_nav\lib\libcombined_module.a

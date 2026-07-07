@@ -1,0 +1,14 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/my_project/combined_nav/build/cmake_install.cmake",
+		"D:/my_project/combined_nav/build/src/cmake_install.cmake",
+		"D:/my_project/combined_nav/build/src/IMU/cmake_install.cmake",
+		"D:/my_project/combined_nav/build/src/COMMON/cmake_install.cmake",
+		"D:/my_project/combined_nav/build/src/GNSS/cmake_install.cmake",
+		"D:/my_project/combined_nav/build/src/COMBINED/cmake_install.cmake",
+		"D:/my_project/combined_nav/build/external/cmake_install.cmake",
+		"D:/my_project/combined_nav/build/external/simpleini/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

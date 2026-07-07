@@ -1,0 +1,3 @@
+D:\my_it\CMAKE\bin\cmake.exe -E rm -f CMakeFiles\realtime_file_sender.dir/objects.a
+D:\my_it\vscode\mingw64\bin\ar.exe qc CMakeFiles\realtime_file_sender.dir/objects.a @CMakeFiles\realtime_file_sender.dir\objects1.rsp
+D:\my_it\vscode\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\realtime_file_sender.dir/objects.a -Wl,--no-whole-archive -o D:\my_project\combined_nav\bin\realtime_file_sender.exe -Wl,--out-implib,D:\my_project\combined_nav\lib\librealtime_file_sender.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\realtime_file_sender.dir\linkLibs.rsp
