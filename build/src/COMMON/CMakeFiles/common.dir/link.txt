@@ -1,2 +1,0 @@
-D:\my_it\vscode\mingw64\bin\ar.exe qc D:\my_project\combined_nav\lib\libcommon.a CMakeFiles/common.dir/Attitude.cpp.obj CMakeFiles/common.dir/const_info.cpp.obj
-D:\my_it\vscode\mingw64\bin\ranlib.exe D:\my_project\combined_nav\lib\libcommon.a

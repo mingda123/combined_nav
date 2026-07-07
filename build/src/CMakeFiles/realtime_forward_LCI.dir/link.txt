@@ -1,3 +1,0 @@
-D:\my_it\CMAKE\bin\cmake.exe -E rm -f CMakeFiles\realtime_forward_LCI.dir/objects.a
-D:\my_it\vscode\mingw64\bin\ar.exe qc CMakeFiles\realtime_forward_LCI.dir/objects.a @CMakeFiles\realtime_forward_LCI.dir\objects1.rsp
-D:\my_it\vscode\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\realtime_forward_LCI.dir/objects.a -Wl,--no-whole-archive -o D:\my_project\combined_nav\bin\realtime_forward_LCI.exe -Wl,--out-implib,D:\my_project\combined_nav\lib\librealtime_forward_LCI.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\realtime_forward_LCI.dir\linkLibs.rsp
